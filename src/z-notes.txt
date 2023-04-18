@@ -1,0 +1,19 @@
+
+well established solutions to common problems faced while developing software
+
+design pattern - designing the classes
+
+SOLID - guidelines to write code
+
+
+singleton design pattern example
+one db object
+one logger object
+
+explore and confirm the singleton usage in these two examples
+
+
+need for builder pattern
+
+create a lots of objects with values
+validate different conditions for the data before creating the object
