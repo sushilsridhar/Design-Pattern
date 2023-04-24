@@ -18,6 +18,7 @@ public class Student {
         this.age = helper.getAge();
     }
 
+    // we are passing too many params, there can be two ints which can passed wrongly, fix it
     public static Student getStudentObject(int id, int psp, int yoe, String name, int gradYear, int age) throws Exception {
 
         Helper helper = new Helper(id, psp, yoe, name, gradYear, age);
