@@ -6,14 +6,57 @@ design pattern - designing the classes
 SOLID - guidelines to write code
 
 
+SINGLETON -------------------------------------------------------------
 singleton design pattern example
 one db object
 one logger object
 
 explore and confirm the singleton usage in these two examples
+check real world example in java for singleton pattern
+
+database object and threadpool objects
 
 
+BUILDER -------------------------------------------------------------
 need for builder pattern
 
 create a lots of objects with values
 validate different conditions for the data before creating the object
+
+issues
+using getter setter - creating objects first, if validation fails, waste of object
+using construcotr - still creating a objects before validation
+
+
+using builder class which does the validation, this is called the builder
+
+check the immutable libraries in java for the builder pattern
+
+builder pattern creates immutable objects
+
+find out how to make deep copy in java using internal methods and also using libraries ,
+add it to immutables package
+
+lombok is the best example of builder pattern
+
+use cases of builder pattern
+building complex objects
+strong need for validation
+
+
+PROTOTYPE and REGISTRY -------------------------------------------------------------
+
+create a base object - a prototype - from the prototype add different things - to create different types of objects
+using a fixed object - adding new values to create different objects - this is called prototype design pattern
+
+create a template - multiple templates can be present - classmate note book example
+
+save the template somewhere - it is called registry
+
+get the template from registry and add new values and use it
+
+single template - just use prototype
+multiple template - registry is used to store multiple template
+
+prototype and registry is used a lot in spring boot - check this
+
